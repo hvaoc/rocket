@@ -1,2 +1,3 @@
 yarn
-./node_modules/pkg/lib-es5/bin.js ./src/app.js --out-path ./dist
+./node_modules/pkg/lib-es5/bin.js -t node8-linux-x64 ./src/app.js -o ./dist/linux/rt
+./node_modules/pkg/lib-es5/bin.js -t node8-macos-x64 ./src/app.js -o ./dist/macos/rt
