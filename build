@@ -1,0 +1,2 @@
+yarn
+./node_modules/pkg/lib-es5/bin.js ./src/app.js --out-path ./dist
